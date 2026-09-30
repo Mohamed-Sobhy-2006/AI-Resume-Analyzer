@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI Resume Analyzer</title><link rel="stylesheet" href="css/style.css"></head>
+<body><div id="nav"></div>
+<div class="container">
+  <div class="hero">
+    <div class="big-ico">🤖</div>
+    <h1>AI Resume Analyzer</h1>
+    <p class="muted">Upload your resume, get an AI-powered analysis, discover matching jobs and receive career advice grounded in a knowledge base.</p>
+    <p id="cta"><a class="btn" href="register.html">🚀 Get started</a> <a class="btn secondary" href="login.html">Login</a></p>
+  </div>
+  <div class="grid cols-4">
+    <div class="card"><div class="feature-ico">🔍</div><h3>1. Analyze</h3><p>Resume Analyzer Agent extracts skills, education, experience, strengths and weaknesses.</p></div>
+    <div class="card"><div class="feature-ico">🎯</div><h3>2. Match</h3><p>Job Matching Agent scores every job with a transparent, deterministic formula.</p></div>
+    <div class="card"><div class="feature-ico">🧭</div><h3>3. Advise</h3><p>Career Advisor Agent uses RAG to recommend skills, certifications and a roadmap.</p></div>
+    <div class="card"><div class="feature-ico">💼</div><h3>4. Manage</h3><p>Add, edit, delete and search job postings.</p></div>
+  </div>
+</div>
+<script src="js/api.js"></script>
+<script>renderNav("index.html"); if (getToken()) $("cta").innerHTML = '<a class="btn" href="dashboard.html">Go to dashboard</a>';</script>
+</body></html>

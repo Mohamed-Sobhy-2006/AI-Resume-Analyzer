@@ -1,0 +1,12 @@
+.env
+venv/
+.venv/
+__pycache__/
+*.pyc
+uploads/*
+!uploads/.gitkeep
+*.db
+chroma_db/
+.pytest_cache/
+data/.secret_key
+data/vector_store/

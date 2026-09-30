@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Career Advisor - AI Resume Analyzer</title><link rel="stylesheet" href="css/style.css"></head>
+<body><div id="nav"></div>
+<div class="container">
+<h1>Career Advisor</h1><p class="muted">Answers are grounded in the knowledge base (RAG). If nothing relevant is found, the advisor says so instead of guessing.</p>
+<div class="card"><div class="row"><div><label for="resumeSelect">Resume</label><select id="resumeSelect"></select></div></div>
+<label for="question">Your question</label><textarea id="question" placeholder="e.g. How can I become a machine learning engineer?"></textarea>
+<p><button class="btn" id="askBtn">Ask Career Advisor</button>
+<button class="btn secondary" data-q="What should I learn next to improve my career prospects?">Suggest what to learn</button>
+<button class="btn secondary" data-q="How do I write an ATS friendly resume?">ATS tips</button>
+<button class="btn secondary" data-q="Which certifications help for cloud?">Certifications</button></p></div>
+<div id="alert"></div><div id="content"></div>
+</div>
+<script src="js/api.js"></script>
+<script src="js/career.js"></script>
+<script>renderNav("career.html");</script>
+</body></html>

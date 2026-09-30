@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Login - AI Resume Analyzer</title><link rel="stylesheet" href="css/style.css"></head>
+<body><div id="nav"></div>
+<div class="container narrow">
+<div class="card"><h2>Login</h2><div id="alert"></div>
+<form id="loginForm"><label for="email">Email</label><input id="email" type="email" required>
+<label for="password">Password</label><input id="password" type="password" required>
+<p><button class="btn" id="submitBtn" type="submit">Login</button></p></form>
+<p class="muted">No account? <a href="register.html">Register</a></p></div>
+</div>
+<script src="js/api.js"></script>
+<script src="js/auth.js"></script>
+<script>renderNav("login.html");</script>
+</body></html>

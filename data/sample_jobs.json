@@ -1,0 +1,195 @@
+[
+  {
+    "title": "Python Backend Developer",
+    "company": "NileTech Solutions",
+    "location": "Cairo, Egypt",
+    "description": "Design and maintain REST APIs and database schemas for a fintech platform. Write automated tests and deploy services with Docker.",
+    "required_skills": [
+      "Python",
+      "FastAPI",
+      "SQL",
+      "Docker",
+      "REST APIs",
+      "Git"
+    ],
+    "experience_level": "Entry Level",
+    "job_type": "Full-time"
+  },
+  {
+    "title": "FastAPI Developer",
+    "company": "Delta Software House",
+    "location": "Giza, Egypt",
+    "description": "Build high-performance FastAPI microservices with JWT authentication and SQLAlchemy models for an e-commerce backend.",
+    "required_skills": [
+      "Python",
+      "FastAPI",
+      "SQL",
+      "REST APIs",
+      "Git",
+      "Testing"
+    ],
+    "experience_level": "Junior",
+    "job_type": "Full-time"
+  },
+  {
+    "title": "Machine Learning Engineer",
+    "company": "Pyramid AI Labs",
+    "location": "Cairo, Egypt",
+    "description": "Train, evaluate and deploy machine learning models for demand forecasting. Build inference APIs and monitor model quality.",
+    "required_skills": [
+      "Python",
+      "Machine Learning",
+      "scikit-learn",
+      "Deep Learning",
+      "PyTorch",
+      "Docker",
+      "Git"
+    ],
+    "experience_level": "Mid Level",
+    "job_type": "Full-time"
+  },
+  {
+    "title": "Data Scientist",
+    "company": "Sahara Analytics",
+    "location": "Alexandria, Egypt",
+    "description": "Analyse customer data, run statistical tests and build predictive models. Present insights to business stakeholders.",
+    "required_skills": [
+      "Python",
+      "SQL",
+      "Statistics",
+      "Pandas",
+      "Machine Learning",
+      "Data Visualization"
+    ],
+    "experience_level": "Mid Level",
+    "job_type": "Full-time"
+  },
+  {
+    "title": "AI Engineer",
+    "company": "Horus Intelligence",
+    "location": "Cairo, Egypt",
+    "description": "Build LLM-powered products: retrieval-augmented generation (RAG) systems, agents and evaluation pipelines exposed through APIs.",
+    "required_skills": [
+      "Python",
+      "LLMs",
+      "RAG",
+      "NLP",
+      "FastAPI",
+      "Docker",
+      "Prompt Engineering"
+    ],
+    "experience_level": "Mid Level",
+    "job_type": "Full-time"
+  },
+  {
+    "title": "Data Analyst",
+    "company": "Nile Retail Group",
+    "location": "Cairo, Egypt",
+    "description": "Create weekly dashboards and ad-hoc reports from sales data. Write SQL queries and communicate findings clearly.",
+    "required_skills": [
+      "SQL",
+      "Excel",
+      "Data Analysis",
+      "Power BI",
+      "Data Visualization",
+      "Statistics"
+    ],
+    "experience_level": "Entry Level",
+    "job_type": "Full-time"
+  },
+  {
+    "title": "NLP Engineer",
+    "company": "Lexi Language Tech",
+    "location": "Remote",
+    "description": "Develop text classification and entity extraction models for Arabic and English documents using transformers.",
+    "required_skills": [
+      "Python",
+      "NLP",
+      "Deep Learning",
+      "PyTorch",
+      "Hugging Face",
+      "Git"
+    ],
+    "experience_level": "Mid Level",
+    "job_type": "Remote"
+  },
+  {
+    "title": "Computer Vision Engineer",
+    "company": "Falcon Vision",
+    "location": "Dubai, UAE",
+    "description": "Build image detection and segmentation models for quality inspection in factories and deploy them on edge devices.",
+    "required_skills": [
+      "Python",
+      "Computer Vision",
+      "OpenCV",
+      "Deep Learning",
+      "PyTorch",
+      "Docker"
+    ],
+    "experience_level": "Mid Level",
+    "job_type": "Full-time"
+  },
+  {
+    "title": "Junior Software Engineer",
+    "company": "Cairo Code Academy",
+    "location": "Cairo, Egypt",
+    "description": "Join a mentoring-focused team building internal web tools. Learn code review, testing and agile delivery.",
+    "required_skills": [
+      "Python",
+      "Git",
+      "SQL",
+      "Testing",
+      "REST APIs",
+      "Agile"
+    ],
+    "experience_level": "Entry Level",
+    "job_type": "Full-time"
+  },
+  {
+    "title": "MLOps Engineer",
+    "company": "Cloudwave Systems",
+    "location": "Remote",
+    "description": "Automate training and deployment pipelines for machine learning models using containers, CI/CD and cloud services.",
+    "required_skills": [
+      "Python",
+      "Docker",
+      "Kubernetes",
+      "CI/CD",
+      "MLOps",
+      "Cloud",
+      "Linux"
+    ],
+    "experience_level": "Senior",
+    "job_type": "Remote"
+  },
+  {
+    "title": "Business Intelligence Developer",
+    "company": "Gulf Data Partners",
+    "location": "Riyadh, Saudi Arabia",
+    "description": "Design data models and interactive reports for management using SQL and Power BI or Tableau.",
+    "required_skills": [
+      "SQL",
+      "Power BI",
+      "Tableau",
+      "Data Analysis",
+      "Excel"
+    ],
+    "experience_level": "Junior",
+    "job_type": "Full-time"
+  },
+  {
+    "title": "Data Engineering Intern",
+    "company": "Alex Data Works",
+    "location": "Alexandria, Egypt",
+    "description": "Support the data team by writing Python scripts and SQL transformations for daily data pipelines. Great first job for students.",
+    "required_skills": [
+      "Python",
+      "SQL",
+      "Git",
+      "Linux",
+      "Airflow"
+    ],
+    "experience_level": "Internship",
+    "job_type": "Internship"
+  }
+]

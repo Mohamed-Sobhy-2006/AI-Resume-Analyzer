@@ -1,0 +1,135 @@
+[
+  {
+    "title": "Python Official Tutorial",
+    "type": "documentation",
+    "skill": "Python",
+    "description": "Official step-by-step introduction to the Python language and standard library.",
+    "url": "https://docs.python.org/3/tutorial/"
+  },
+  {
+    "title": "FastAPI Tutorial - User Guide",
+    "type": "documentation",
+    "skill": "FastAPI",
+    "description": "Official tutorial covering routes, validation, dependencies, security and databases.",
+    "url": "https://fastapi.tiangolo.com/tutorial/"
+  },
+  {
+    "title": "SQLBolt Interactive SQL Lessons",
+    "type": "tutorial",
+    "skill": "SQL",
+    "description": "Short interactive lessons that teach SQL queries, joins and aggregates.",
+    "url": "https://sqlbolt.com/"
+  },
+  {
+    "title": "Pro Git Book",
+    "type": "documentation",
+    "skill": "Git",
+    "description": "Free official book explaining Git from basics to advanced workflows.",
+    "url": "https://git-scm.com/book/en/v2"
+  },
+  {
+    "title": "Docker Get Started Guide",
+    "type": "documentation",
+    "skill": "Docker",
+    "description": "Official guide to building images, running containers and using Docker Compose.",
+    "url": "https://docs.docker.com/get-started/"
+  },
+  {
+    "title": "Machine Learning Crash Course",
+    "type": "course",
+    "skill": "Machine Learning",
+    "description": "Google's free course covering core machine learning concepts with exercises.",
+    "url": "https://developers.google.com/machine-learning/crash-course"
+  },
+  {
+    "title": "scikit-learn User Guide",
+    "type": "documentation",
+    "skill": "scikit-learn",
+    "description": "Official guide to classic machine learning algorithms in Python.",
+    "url": "https://scikit-learn.org/stable/user_guide.html"
+  },
+  {
+    "title": "PyTorch Tutorials",
+    "type": "tutorial",
+    "skill": "PyTorch",
+    "description": "Official tutorials for building and training neural networks with PyTorch.",
+    "url": "https://pytorch.org/tutorials/"
+  },
+  {
+    "title": "Hugging Face LLM Course",
+    "type": "course",
+    "skill": "NLP",
+    "description": "Free course on transformers, NLP tasks and large language models.",
+    "url": "https://huggingface.co/learn/llm-course"
+  },
+  {
+    "title": "pandas: 10 Minutes to pandas",
+    "type": "documentation",
+    "skill": "Pandas",
+    "description": "Official quick introduction to data analysis with Pandas.",
+    "url": "https://pandas.pydata.org/docs/user_guide/10min.html"
+  },
+  {
+    "title": "Kaggle Learn",
+    "type": "course",
+    "skill": "Data Analysis",
+    "description": "Free micro-courses on Python, Pandas, SQL, data visualization and machine learning.",
+    "url": "https://www.kaggle.com/learn"
+  },
+  {
+    "title": "Google Cloud Architecture: MLOps Pipelines",
+    "type": "documentation",
+    "skill": "MLOps",
+    "description": "Guide to continuous delivery and automation pipelines for machine learning.",
+    "url": "https://cloud.google.com/architecture/mlops-continuous-delivery-and-automation-pipelines-in-machine-learning"
+  },
+  {
+    "title": "AWS Certified Cloud Practitioner",
+    "type": "certification",
+    "skill": "Cloud",
+    "description": "Entry-level cloud certification covering AWS fundamentals, security and pricing.",
+    "url": "https://aws.amazon.com/certification/certified-cloud-practitioner/"
+  },
+  {
+    "title": "Microsoft Azure Fundamentals (AZ-900)",
+    "type": "certification",
+    "skill": "Cloud",
+    "description": "Entry-level certification covering cloud concepts and core Azure services.",
+    "url": "https://learn.microsoft.com/credentials/certifications/azure-fundamentals/"
+  },
+  {
+    "title": "Microsoft Azure AI Fundamentals (AI-900)",
+    "type": "certification",
+    "skill": "Machine Learning",
+    "description": "Certification covering machine learning, computer vision and NLP workloads on Azure.",
+    "url": "https://learn.microsoft.com/credentials/certifications/azure-ai-fundamentals/"
+  },
+  {
+    "title": "Microsoft Power BI Data Analyst (PL-300)",
+    "type": "certification",
+    "skill": "Power BI",
+    "description": "Certification for preparing data and building reports and dashboards with Power BI.",
+    "url": "https://learn.microsoft.com/credentials/certifications/data-analyst-associate/"
+  },
+  {
+    "title": "Google Data Analytics Professional Certificate",
+    "type": "certification",
+    "skill": "Data Analysis",
+    "description": "Beginner certificate covering data cleaning, SQL, spreadsheets, Tableau and R.",
+    "url": "https://www.coursera.org/professional-certificates/google-data-analytics"
+  },
+  {
+    "title": "PCEP - Certified Entry-Level Python Programmer",
+    "type": "certification",
+    "skill": "Python",
+    "description": "Python Institute certification that validates basic Python programming knowledge.",
+    "url": "https://pythoninstitute.org/pcep"
+  },
+  {
+    "title": "Machine Learning Specialization (DeepLearning.AI)",
+    "type": "certification",
+    "skill": "Deep Learning",
+    "description": "Beginner specialization on machine learning and neural networks by DeepLearning.AI.",
+    "url": "https://www.deeplearning.ai/courses/machine-learning-specialization/"
+  }
+]

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Jobs - AI Resume Analyzer</title><link rel="stylesheet" href="css/style.css"></head>
+<body><div id="nav"></div>
+<div class="container">
+<h1>Jobs</h1>
+<div class="tabs"><button class="tab active" data-tab="rec">Recommendations</button><button class="tab" data-tab="search">Search Jobs</button><button class="tab" data-tab="manage">Manage Jobs</button></div>
+<div id="alert"></div>
+<section id="tab-rec"><div class="card"><div class="row"><div><label for="recResume">Resume</label><select id="recResume"></select></div><button class="btn" id="recRefresh">Recalculate</button></div>
+<p class="muted">Score = matched required skills / total required skills x 100 (deterministic; the AI only writes the explanation).</p></div><div id="recList"></div></section>
+<section id="tab-search" class="hidden"><div class="card"><form id="searchForm"><div class="row">
+<div><label>Title</label><input id="s_title"></div><div><label>Company</label><input id="s_company"></div><div><label>Location</label><input id="s_location"></div>
+<div><label>Skill</label><input id="s_skill"></div><div><label>Experience level</label><input id="s_level"></div><div><label>Job type</label><input id="s_type"></div>
+<button class="btn" type="submit">Search</button><button class="btn secondary" type="button" id="searchReset">Reset</button></div></form></div><div id="searchList"></div></section>
+<section id="tab-manage" class="hidden"><div class="card"><h2 id="formTitle">Add a job</h2><form id="jobForm"><input type="hidden" id="j_id">
+<div class="row"><div><label>Title *</label><input id="j_title" required></div><div><label>Company *</label><input id="j_company" required></div><div><label>Location</label><input id="j_location"></div></div>
+<div class="row"><div><label>Experience level</label><select id="j_level"><option>Internship</option><option selected>Entry Level</option><option>Junior</option><option>Mid Level</option><option>Senior</option></select></div>
+<div><label>Job type</label><select id="j_type"><option selected>Full-time</option><option>Part-time</option><option>Internship</option><option>Contract</option><option>Remote</option></select></div>
+<div><label>Required skills (comma separated)</label><input id="j_skills" placeholder="Python, FastAPI, SQL"></div></div>
+<label>Description</label><textarea id="j_desc"></textarea>
+<p><button class="btn" id="jobSave" type="submit">Save job</button> <button class="btn secondary hidden" id="jobCancel" type="button">Cancel edit</button></p></form></div>
+<div class="card"><h2>All jobs</h2><div id="manageList"></div></div></section>
+</div>
+<script src="js/api.js"></script>
+<script src="js/jobs.js"></script>
+<script>renderNav("jobs.html");</script>
+</body></html>

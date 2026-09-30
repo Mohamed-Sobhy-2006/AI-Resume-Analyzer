@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Resume - AI Resume Analyzer</title><link rel="stylesheet" href="css/style.css"></head>
+<body><div id="nav"></div>
+<div class="container">
+<h1>Resume Upload</h1><p class="muted">Upload a PDF or DOCX file (max 5 MB). The text is extracted and analyzed automatically.</p>
+<div class="card"><div id="alert"></div>
+<form id="uploadForm"><label for="file">Resume file</label><input id="file" type="file" accept=".pdf,.docx" required>
+<p><button class="btn" id="uploadBtn" type="submit">Upload &amp; analyze</button></p></form></div>
+<div class="card"><h2>My resumes</h2><div id="list">Loading...</div></div>
+</div>
+<script src="js/api.js"></script>
+<script src="js/resume.js"></script>
+<script>renderNav("resume.html");</script>
+</body></html>

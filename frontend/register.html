@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Register - AI Resume Analyzer</title><link rel="stylesheet" href="css/style.css"></head>
+<body><div id="nav"></div>
+<div class="container narrow">
+<div class="card"><h2>Create account</h2><div id="alert"></div>
+<form id="registerForm"><label for="name">Full name</label><input id="name" required>
+<label for="email">Email</label><input id="email" type="email" required>
+<label for="password">Password (min 8 characters)</label><input id="password" type="password" required minlength="8">
+<label for="confirm">Confirm password</label><input id="confirm" type="password" required>
+<p><button class="btn" id="submitBtn" type="submit">Register</button></p></form>
+<p class="muted">Already registered? <a href="login.html">Login</a></p></div>
+</div>
+<script src="js/api.js"></script>
+<script src="js/auth.js"></script>
+<script>renderNav("register.html");</script>
+</body></html>
